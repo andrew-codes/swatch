@@ -1,0 +1,29 @@
+{
+  "name": "@andrew-codes/swatch",
+  "version": "0.0.0",
+  "description": "Generate a documentation website for a pattern/React components library.",
+  "repository": "git@github.com:andrew-codes/swatch.git",
+  "author": "Andrew Smith <andrew@andrew.codes>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-andrew-codes-react": "^1.1.2",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^7.0.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.5.0",
+    "html-webpack-plugin": "^2.28.0",
+    "lodash.includes": "^4.3.0",
+    "meow": "^3.7.0",
+    "webpack": "^2.5.1"
+  },
+  "bin": {
+    "swatch": "./src/bin/index.js"
+  }
+}
